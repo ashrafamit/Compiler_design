@@ -1,0 +1,21 @@
+ml /c /Zd /coff "Hello_world.asm"
+\masm32\bin\link /SUBSYSTEM:CONSOLE Hello_world.obj
+
+
+Lab1:
+
+1. Preprocess:
+gcc -E .\proc.c > proc.i
+2. Compile
+gcc -S -masm=intel proc.c
+3. Assembler
+gcc -c -o proc.o  proc.c
+5. Executable file
+gcc -o proc proc.c
+4. Dump file
+objdump -M intel -d proc.o > proc1.dump
+objdump -M intel -d proc.exe > proc2.dump (detail)
+
+
+
+

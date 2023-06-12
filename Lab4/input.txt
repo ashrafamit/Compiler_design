@@ -1,0 +1,6 @@
+int a;
+double b = 2.2;
+a = 10.0 + b ;
+int d = ruet+3;
+double a2 = 10 + a * d ;
+

@@ -1,0 +1,25 @@
+a
+In line no 1, Inserting a with type INT_TYPE in symbol table.
+b
+In line no 2, Inserting b with type REAL_TYPE in symbol table.
+exp1 = 2 exp2 =2
+type =2
+ID is found!
+Type of ID is 1
+Type of EXP is 2
+In line no 3, Data type INT_TYPE is not matched with Data type REAL_TYPE.
+Type of Result is 0
+In line no 4, ID ruet is not declared.
+exp1 = 1952806258 exp2 =1
+In line no 4, Data type UNDEF_TYPE is not matched with Data type INT_TYPE.
+type =0
+In line no 4, Data type UNDEF_TYPE is not matched with Data type INT_TYPE.
+d
+In line no 4, Inserting d with type INT_TYPE in symbol table.
+exp1 = 1 exp2 =1
+type =1
+exp1 = 1 exp2 =1
+type =1
+a2
+In line no 5, Inserting a2 with type REAL_TYPE in symbol table.
+Parsing finished!

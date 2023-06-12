@@ -1,0 +1,6 @@
+q1. C compiler and makefile
+q2. intro to flex and bison
+
+
+3 ta sentence thakbe, noun verb object detect krbe.
+

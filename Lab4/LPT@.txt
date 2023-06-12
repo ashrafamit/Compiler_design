@@ -1,0 +1,12 @@
+1. Lexical
+2. Syntax
+3. Semantic
+
+type: INT {$$=1;}   --> int_type
+
+exp: exp ADDOP exp 
+	| exp MULOP exp
+    | exp GT exp
+    | ID {printf("%d\n",idcheck($1));}
+    | ICONST
+	;
